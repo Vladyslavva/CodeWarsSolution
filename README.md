@@ -222,4 +222,40 @@ function reverseNumber(n){
 }
 ```
 
-something to do
+20) https://www.codewars.com/kata/514b92a657cdc65150000006
+```javascript
+function solution(number){
+  let sum = 0;
+
+  for(let i = 0; i < number; i++) {
+    if(i % 3 === 0 || i % 5 === 0) {
+      sum = sum + i;
+    }
+  }
+
+  return sum;
+}
+```
+
+21) https://www.codewars.com/kata/562e8a47ded765e36a00006b
+```javascript
+function reverseString(str) {
+
+  return str.split('').reverse().join('');
+
+}
+```
+
+22) https://www.codewars.com/kata/50ee6b0bdeab583673000025
+```javascript
+var a = "code";
+var b = "wa.rs";
+var name = a + b;
+```
+
+23) https://www.codewars.com/kata/5a2b703dc5e2845c0900005a
+```javascript
+function isDivideBy(number, a, b) {
+  return number % a === 0 && number % b === 0 ? true : false;
+}
+```
