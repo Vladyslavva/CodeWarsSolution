@@ -259,3 +259,135 @@ function isDivideBy(number, a, b) {
   return number % a === 0 && number % b === 0 ? true : false;
 }
 ```
+
+24) https://www.codewars.com/kata/55a70521798b14d4750000a4
+```javascript
+function greet(name){
+  return `Hello, ${name} how are you doing today?`;
+}
+```
+
+25) https://www.codewars.com/kata/56f6ad906b88de513f000d96
+```javascript
+function bonusTime(salary, bonus) {
+return bonus ? ('£' + salary * 10): '£' + salary;
+}
+```
+
+26) https://www.codewars.com/kata/58bf9bd943fadb2a980000a7
+```javascript
+function whoIsPaying(name){
+  let arr = [name];
+  if(name.length > 2){
+  let str = name.substring(0, 2);
+  arr.push(str);
+  }
+  return arr;
+}
+```
+
+27) https://www.codewars.com/kata/5701e43f86306a615c001868
+```javascript
+function getIssuer(number) {
+console.log(number);
+let str = number.toString();
+  if((str.slice(0, 2) === '34' || str.slice(0, 2) === '37') && str.length === 15) return 'AMEX';
+  else if((str.slice(0, 2) === '51' || str.slice(0, 2) === '52' || str.slice(0, 2) === '53' || str.slice(0, 2) === '54' || str.slice(0, 2) === '55') && str.length === 16) return 'Mastercard';
+  else if(str.slice(0, 4) === '6011' && str.length === 16) return 'Discover';
+  else if(str.slice(0, 1) === '4' && (str.length === 13 || str.length === 16)) return 'VISA';
+  else return 'Unknown';
+}
+```
+
+28) https://www.codewars.com/kata/57547f9182655569ab0008c4
+```javascript
+function replicate(times, number) {
+  let arrr = [];
+  return rep(times, number, arrr);
+
+}
+
+function rep (times, number, arr){
+  if (times <= 0) return arr;
+  arr.push(number);
+  return rep(times - 1, number, arr);
+}
+```
+
+29) https://www.codewars.com/kata/5558cc216a7a231ac9000022
+```javascript
+function duplicates(arr) {
+  let arr1 = [];
+  arrSort = arr.slice().sort();
+  console.log(arrSort);
+  for(i = 0; i < arr.length - 1; i++){
+    if(arrSort[i] === arrSort[i + 1]){
+      if (!arr1.includes(arrSort[i])) {
+        arr1.push(arrSort[i]);
+      }
+    }
+  }
+  return arr1;
+}
+```
+
+30) https://www.codewars.com/kata/544a54fd18b8e06d240005c0
+```javascript
+function min(arr, toReturn) {
+  let min = arr[0];
+  let minIndex = 0;
+    for(i = 0; i < arr.length; i++){
+      if(arr[i] < min){
+        min = arr[i];
+        minIndex = i;
+      }
+    }
+    return toReturn === 'value' ? min: minIndex;
+}
+```
+
+31)  https://www.codewars.com/kata/576b93db1129fcf2200001e6
+```javascript
+function sumArray(arr) {
+console.log(arr);
+  if(arr === null){
+    return 0;
+  }
+  if(arr[0] === 0 || arr.length === 0) {return 0;}
+  if(arr.length === 1) {return 0;}
+  return eval(arr.join('+')) - Math.min.apply(null, arr) - Math.max.apply(null, arr);
+}
+```
+
+32) https://www.codewars.com/kata/57073869924f34185100036d
+```javascript
+unction randomCase(x) {
+let xNew = '';
+  for (let i = 0; i < x.length; i++){
+   if(Math.round(Math.random()) > 0){
+     xNew += x[i].toUpperCase();
+   } else{
+     xNew += x[i].toLowerCase();
+    }
+  }
+  return xNew;
+}
+```
+
+33) https://www.codewars.com/kata/59d9ff9f7905dfeed50000b0
+```javascript
+function solve(arr){
+ let alp = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ';
+ let arrNew = [];
+  for(let i = 0; i < arr.length; i++){
+   let count = 0;
+   for(let j = 0; j < arr[i].length; j++){
+     if(j === alp.indexOf(arr[i][j].toUpperCase()) ){
+      count++;
+     }
+   }
+   arrNew.push(count);
+  }
+  return arrNew;
+}
+```
