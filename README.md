@@ -391,3 +391,74 @@ function solve(arr){
   return arrNew;
 }
 ```
+
+34) https://www.codewars.com/kata/59325dc15dbb44b2440000af
+```javascript
+function isAlt(word) {
+  let vowels = ['a', 'e', 'i', 'o', 'u'];
+  let start;
+  let consonants = ['b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
+  if(vowels.includes(word[0])) {
+    start = 0;
+  } else start = 1;
+  for (i = start; i < word.length; i = i + 2) {
+    if (!(vowels.includes(word[i]))) {return false;}
+  }
+  if (start === 1) {start = 0;}
+  else {start = 1;}
+  for (i = start; i < word.length; i = i + 2){
+    if (!(consonants.includes(word[i]))) {return false;}
+    }
+  return true;
+
+} ```
+
+35) https://www.codewars.com/kata/51e704f2d8dbace389000279
+```javascript
+function arraysSimilar(arr1, arr2) {
+  if(arr1.length !== arr2.length) return false;
+  arr1.sort();
+  arr2.sort();
+  for(let i = 0; i < arr1.length; i++){
+    if( arr1[i] !== arr2[i]) return false;
+
+  }
+  return true;
+}
+```
+
+36) https://www.codewars.com/kata/5966847f4025872c7d00015b
+```javascript
+function averageString(str) {
+ let arr = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine'];
+ let arrStr = str.split(' ');
+ let sum = 0;
+   for (let i = 0; i < arrStr.length; i++) {
+     sum += arr.indexOf(arrStr[i]);
+     if (arrStr[i] === '' || arr.includes(arrStr[i]) === false) return 'n/a'
+    }
+  let avg = Math.floor(sum/arrStr.length);
+
+    return arr[avg]
+}
+```
+
+37) https://www.codewars.com/kata/5982619d2671576e90000017
+```javascript
+function spongeMeme(sentence) {
+  let str = '';
+  for(let i = 0; i < sentence.length; i++ ){
+    if(i % 2 === 0){ sentence[i].toUpperCase()
+      str = str + sentence[i].toUpperCase();
+    } else {
+      str = str + sentence[i].toLowerCase();
+
+    }
+  }
+  return str;
+}
+```
+
+
+
+
