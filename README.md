@@ -459,6 +459,105 @@ function spongeMeme(sentence) {
 }
 ```
 
+38) https://www.codewars.com/kata/57a5b0dfcf1fa526bb000118
+```javascript
+function distinct(a) {
+  return [...new Set(a)];
+}
+```
 
+39) https://www.codewars.com/kata/56c22cdbe0c0f7cae2001789
+```javascript
+const avg = a => a.reduce((a,b)=> a + b) / a.length;
+```
+
+
+40) https://www.codewars.com/kata/52774a314c2333f0a7000688
+```javascript
+function validParentheses(par){
+  const arr = [];
+  const open = ['(', '{', '['];
+  const close = [')', '}', ']'];
+  for (let i = 0; i < par.length; i++){
+  if(open.includes(par[i])) {
+  arr.push(par[i]);
+  } else {
+  if(close.indexOf(par[i]) === open.indexOf(arr[arr.length - 1])) {
+    arr.pop();
+  } else {
+  return false;
+  }
+  }
+  }
+  return arr.length === 0;
+}
+```
+
+41) https://www.codewars.com/kata/58e26b5d92d04c7a4f00020a
+```javascript
+function palindrome(num) {
+  if(typeof num !== 'number' || num < 0) return 'Not valid';
+  if(num < 10) return false;
+  num = num.toString().split('').sort();
+  let cnt = 0;
+  for(let i = 0; i < num.length - 1; i){
+    if(num[i] === num[i + 1]){
+    cnt = cnt + 2;
+    i = i + 2;
+    }else i++;
+  }
+
+  if(num.length === cnt || num.length === cnt + 1){
+  return true;
+  }else return false;
+  }
+  ```
+
+  42) https://www.codewars.com/kata/5a523566b3bfa84c2e00010b
+  ```javascript
+  function minSum(arr) {
+    let count = 0;
+    arr.sort((a,b) => b - a);
+    for(let i = 0; i < arr.length / 2; i++){
+    count = count + arr[i] * arr[arr.length - 1 - i]
+    }
+    return count;
+  }
+  ```
+
+  43) https://www.codewars.com/kata/5ae326342f8cbc72220000d2
+  ```javascript
+  function stringExpansion(str) {
+    let res = '';
+    let rep = 1;
+    if (str === '') return res;
+    for(let i = 0; i < str.length - 1; i++){
+      if(+str[i] == str[i] && +str[i + 1] != str[i + 1]) {
+        rep = +str[i];
+      }
+      if (+str[i] != str[i]){
+        res = res + str[i].repeat(rep);
+        }
+    }
+    if (+str[str.length - 1] != str[str.length - 1]) {
+      res = res + str[str.length - 1].repeat(rep);
+    }
+    return res;
+  }
+  ```
+
+  44) https://www.codewars.com/kata/57a5015d72292ddeb8000b31
+  ```javascript
+  function isPalindrome(line) {
+  console.log(line);
+  line = line + '';
+  for(let i = 0; i < line.length / 2; i++){
+    if(line[i] !== line[line.length - 1 - i]){
+      return false;
+    }
+  }
+    return true;
+  }
+  ```
 
 
