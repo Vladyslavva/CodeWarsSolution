@@ -560,4 +560,57 @@ function palindrome(num) {
   }
   ```
 
+  45)  https://www.codewars.com/kata/57a2013acf1fa5bfc4000921
+  ```javascript
+  function find_average(a) {
+    let sum = 0;
+    for(let i = 0; i < a.length; i++){
+      sum = sum + a[i];
+    }
+    return sum / a.length;
+  }
+  ```
+
+  46) https://www.codewars.com/kata/580755730b5a77650500010c
+  ```javascript
+  function sortMyString(S) {
+    let str1 = '';
+    for(let i = 0; i < S.length; i = i + 2) {
+      str1 = str1 + S[i];
+    }
+    let str2 = '';
+    for(let j = 1; j < S.length; j = j + 2){
+    str2 = str2 + S[j];
+    }
+    let newS = 0;
+    newS = str1 + ' ' + str2;
+    return newS;
+  }
+  ```
+
+  47) https://www.codewars.com/kata/56069d0c4af7f633910000d3
+  ```javascript
+  function search(budget, prices) {
+  return prices.filter((el) => el <= budget).sort((a,b) => a-b).join();
+
+  }
+  ```
+
+  48) https://www.codewars.com/kata/5899642f6e1b25935d000161
+  ```javascript
+function mergeArrays(arr1, arr2) {
+let newArr = [];
+for(let i = 0; i < arr1.length; i++){
+  if(! newArr.includes(arr1[i]))
+  newArr.push(arr1[i]);
+}
+for(let i = 0; i < arr2.length; i++){
+  if(! newArr.includes(arr2[i]))
+  newArr.push(arr2[i]);
+}
+return newArr.sort((a,b) => a-b);
+
+}
+```
+
 
