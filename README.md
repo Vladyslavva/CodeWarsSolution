@@ -613,4 +613,82 @@ return newArr.sort((a,b) => a-b);
 }
 ```
 
+49) https://www.codewars.com/kata/56069d0c4af7f633910000d3
+```javascript
+function search(budget, prices) {
+return prices.filter((el) => el <= budget).sort((a,b) => a-b).join();
+
+}
+```
+
+50) https://www.codewars.com/kata/580755730b5a77650500010c
+```javascript
+function sortMyString(S) {
+  let str1 = '';
+  for(let i = 0; i < S.length; i = i + 2) {
+    str1 = str1 + S[i];
+  }
+  let str2 = '';
+  for(let j = 1; j < S.length; j = j + 2){
+  str2 = str2 + S[j];
+  }
+  let newS = 0;
+  newS = str1 + ' ' + str2;
+  return newS;
+}
+```
+
+51) https://www.codewars.com/kata/5a5915b8d39ec5aa18000030
+```javascript
+function findMissing(arr1, arr2) {
+  let misEl;
+  let a1 = arr1.sort((a,b) => a - b);
+  let a2 = arr2.sort((a,b) => a - b);
+  for(let i = 0; i < a1.length; i++){
+    if(a1[i] !== a2[i]) return a1[i];
+
+
+  }
+
+}
+```
+
+52) https://www.codewars.com/kata/54554846126a002d5b000854
+```javascript
+var buy = function(x, arr){
+  let res = [];
+
+  for(let i = 0; i < arr.length - 1; i++){
+    for(let j = i + 1; j < arr.length; j++){
+      if  (arr[i] + arr[j] === x){
+      return [i, j];
+      }
+    }
+  }
+  return null;
+}
+```
+
+53) https://www.codewars.com/kata/5aa1bcda373c2eb596000112
+```javascript
+function maxTriSum(numbers){
+let sum = 0;
+  let res = numbers.sort((a,b) => b - a);
+  let arr = [];
+  for(let i = 0; i < res.length; i++){
+    if(arr.length >= 3){
+      break
+    }
+    if(!arr.includes(res[i])) {
+    arr.push(res[i]);
+    sum += res[i];
+      }
+    }
+    return sum;
+}
+```
+
+54)
+
+
 
