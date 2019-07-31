@@ -688,7 +688,199 @@ let sum = 0;
 }
 ```
 
-54)
+54) https://www.codewars.com/kata/513e08acc600c94f01000001
+```javascript
+function rgb(r, g, b){
+    r = (r >= 0 && r <= 255) ? r : (r < 0) ? 0 : 255;
+    g = (g >= 0 && g <= 255) ? g : (g < 0) ? 0 : 255;
+    b = (b >= 0 && b <= 255) ? b : (b < 0) ? 0 : 255;
+    rx = r.toString(16).length == 2 ? r.toString(16) : '0' + r.toString(16);
+    gx = g.toString(16).length == 2 ? g.toString(16) : '0' + g.toString(16);
+    bx = b.toString(16).length == 2 ? b.toString(16) : '0' + b.toString(16);
+    return (rx + gx + bx).toUpperCase();
+}
+```
+
+55) https://www.codewars.com/kata/55b75fcf67e558d3750000a3
+```java 
+public class Block{
+	private int width;
+  private int length;
+  private int height;
+  
+  public Block (int... arg) {
+    this.width = arg[0];
+    this.length = arg[1];
+    this.height = arg[2];
+  }
+  public int getWidth (){
+    return this.width;
+  }
+   public int getLength (){
+    return this.length;
+  }
+   public int getHeight (){
+    return this.height;
+  }
+  
+  public int getVolume () {
+    return this.width * this.length * this.height;
+  }
+  
+  public int getSurfaceArea () {
+    return 2*this.width*this.length + 2*this.length*this.height + 2*this.width*this.height; 
+  }
+}
+```
+56) https://www.codewars.com/kata/5a03295680171ffd7b0000c7
+```java 
+public class EncapsulationDemo{
+  private int number;
+  private String stringValue;
+  private Object anObject;
+  
+  public EncapsulationDemo () {}
+  
+  public EncapsulationDemo (int number, String stringValue, Object anObject) {
+    this.number = number;
+    this.stringValue = stringValue;
+    this.anObject = anObject;
+  }
+  
+  public void setNumber (int number) {
+    this.number = number;
+  }
+  public int getNumber () {
+    return this.number;
+  }
+  public void setStringValue (String stringValue){
+    this.stringValue = stringValue;
+  }
+  public String getStringValue () {
+    return this.stringValue;
+  }
+  
+  public void setAnObject (Object anObject){
+    this.anObject = anObject;
+  }
+  public Object getAnObject (){
+    return this.anObject;
+  }
+}
+```
+
+57) https://www.codewars.com/kata/55c0a79e20be94c91400014b
+```java 
+public class Cube{
+  private int Side;
+  
+  public void setSide (int num){
+    this.Side = num;
+  }
+  public int getSide (){
+    return this.Side;
+  }
+  
+}
+```
+
+58) https://www.codewars.com/kata/5a00e05cc374cb34d100000d
+```javascript
+const reverseSeq = n => {
+let arr = [];
+  for(i = n; i > 0; i--){
+  arr.push(i)
+  }
+  return arr;
+};
+```
+
+59) https://www.codewars.com/kata/59706036f6e5d1e22d000016
+```javascript
+function wordsToMarks(string){
+  let dict = {
+  'a': 1,
+  'b': 2,
+  'c': 3,
+  'd': 4,
+  'e' : 5,
+  'f' : 6,
+  'g' : 7,
+  'h' : 8,
+  'i' : 9,
+  'j' : 10,
+  'k' : 11,
+  'l' : 12,
+  'm' : 13,
+  'n' : 14,
+  'o' : 15,
+  'p' : 16,
+  'q' : 17,
+  'r' : 18,
+  's' : 19,
+  't' : 20,
+  'u' : 21,
+  'v' : 22,
+  'w' : 23,
+  'x' : 24,
+  'y' : 25,
+  'z' : 26
+  }
+  let count = 0;
+  for (let i = 0; i < string.length; i++){
+    count = count + dict[string[i]];
+  }
+  return count;
+}
+```
+
+60) https://www.codewars.com/kata/56b29582461215098d00000f
+```javascript
+function pipeFix(numbers){
+ let arr = [];
+  for(i = numbers[0]; i <= numbers[numbers.length - 1]; i++){
+    arr.push(i);
+  }
+  return arr;
+}
+```
+
+61) https://www.codewars.com/kata/57241e0f440cd279b5000829
+```javascript
+function sumMul(n,m){
+let sum = 0;
+if (n <= 0 || m <= 0) return "INVALID";
+  for (i = 0; i < m; i++){
+  if (i % n === 0){
+  sum = sum + i;
+  } 
+}
+return sum;
+}
+```
+
+62) https://www.codewars.com/kata/56b7f2f3f18876033f000307
+```javascript
+function inAscOrder(arr) {
+  const arr1 = arr.slice(0);
+  arr1.sort((a, b) => a - b);
+  for(i = 0; i < arr1.length; i++){
+    if (arr[i] !== arr1[i]) {
+      return false;
+    }
+  }
+  return true;
+}
+```
+
+
+
+
+
+
+
+
+
 
 
 
