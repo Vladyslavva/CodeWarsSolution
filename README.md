@@ -872,8 +872,59 @@ function inAscOrder(arr) {
   return true;
 }
 ```
+63) https://www.codewars.com/users/Vladyslavva/completed_solutions
+```javascript
+function cubeOdd(arr) {
+let sum = 0;
+for(i = 0; i < arr.length; i++){
+  if(typeof arr[i] !== 'number') return undefined;
+  if(arr[i] % 2 !== 0){
+  sum = sum + (arr[i] ** 3)
+  }
+} 
+return sum;
+}
+```
 
+64) https://www.codewars.com/users/Vladyslavva/completed_solutions
+```javascript
+function divisors(int) {
+let arr = [];
+for(i = 2; i < int - 1; i++){
+  if(int % i === 0){
+  arr.push(i);
+  }
+} return arr.length === 0 ? int + ' is prime' : arr.sort((a, b) => a - b);
+  
+}
+```
 
+65) https://www.codewars.com/kata/5a3dd29055519e23ec000074
+```javascript
+function checkExam(array1, array2) {
+let count = 0;
+ for(let i = 0; i < array1.length; i++){
+   if(array2[i] === '') continue;
+   else if(array2[i] === array1[i]){
+   count = count + 4;
+   } else {
+   count = count - 1;
+   }
+   
+ } 
+ return count < 0 ? 0 : count;
+}
+```
+
+66) https://www.codewars.com/kata/5a3fe3dde1ce0e8ed6000097
+```javascript
+function century(year) {
+  return year % 100 === 0 ? year / 100 : Math.floor(year/100) + 1;
+}
+```
+
+67)
+```javascript
 
 
 
