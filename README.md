@@ -923,8 +923,53 @@ function century(year) {
 }
 ```
 
-67)
+67) https://www.codewars.com/kata/53dc23c68a0c93699800041d
 ```javascript
+function smash (words) {
+  return words.join(' ').toString();
+
+}
+```
+
+68) https://www.codewars.com/kata/57a5c31ce298a7e6b7000334
+```javascript
+function binToDec(bin){
+  return parseInt(bin, 2);
+}
+```
+
+69) https://www.codewars.com/kata/55f73be6e12baaa5900000d4
+```javascript
+function goals (laLigaGoals, copaDelReyGoals, championsLeagueGoals) {
+  const sum = (laLigaGoals + copaDelReyGoals + championsLeagueGoals);
+  return sum;
+}
+```
+
+70) https://www.codewars.com/kata/57ee4a67108d3fd9eb0000e7
+```javascript
+function gooseFilter (birds) {
+  var geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"];
+  return birds.filter(el => !geese.includes(el));
+}
+```
+
+71) https://www.codewars.com/kata/5c374b346a5d0f77af500a5a
+```javascript
+function elevator(left, right, call){
+  return Math.abs(call - right) <= Math.abs(call - left) ? "right" : "left";
+}
+```
+
+72) https://www.codewars.com/kata/56cd44e1aa4ac7879200010b
+```javascript
+String.prototype.isUpperCase = function() {
+  return this.toUpperCase() == this;
+}
+```
+
+
+
 
 
 
