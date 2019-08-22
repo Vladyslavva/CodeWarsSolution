@@ -975,6 +975,73 @@ function expressionMatter(a, b, c) {
 }
 ```
 
+74) https://www.codewars.com/kata/5933a1f8552bc2750a0000ed
+```javascript
+function nthEven(n){
+  return (n - 1) *2;
+}```
+
+75) https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+```javascript
+function likes(names) {
+  if(names.length === 0) return "no one likes this";
+  if(names.length === 1) return names[0] + " likes this";
+  if(names.length === 2) return names[0] + " and " + names[1] + " like this";
+  if(names.length === 3) return names[0] + ", " + names[1] + " and " + names[2] + " like this";
+  return names[0] + ", " + names[1] + " and " + (names.length - 2) + " others like this";
+}
+```
+
+76) https://www.codewars.com/kata/57a1fd2ce298a731b20006a4
+```javascript
+function isPalindrome(x) {
+  for(let i = 0; i < x.length/2; i++){
+    if(x[i].toLowerCase() !== x[x.length - 1 - i].toLowerCase()) {
+    return false;
+    }
+   }
+   return true;
+}
+```
+
+77) https://www.codewars.com/kata/56f695399400f5d9ef000af5
+```javascript
+function correctTail(body, tail){
+
+  sub = body.substr(body.length-tail.length)
+
+  if (sub === tail)  return true;
+
+  else return false;
+  }
+```
+
+78) https://www.codewars.com/kata/5bb904724c47249b10000131
+```javascript
+function points(games) {
+let score = 0;
+  for(let i = 0; i < games.length; i++){
+   let a = games[i].split(':');
+   if(+a[0] > +a[1]){
+     score = score + 3;
+   }else if (+a[0] === +a[1]){
+    score = score + 1;
+   }else score = score + 0;
+  }
+  return score;
+}
+```
+
+79) https://www.codewars.com/kata/53dc54212259ed3d4f00071c
+```javascript
+function sum (numbers) {
+  if(numbers.length === 0)return 0;
+ return numbers.reduce ((x, y) => (x + y), 0);
+
+}
+```
+
+
 
 
 
