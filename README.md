@@ -1041,6 +1041,114 @@ function sum (numbers) {
 }
 ```
 
+80) https://www.codewars.com/kata/563b74ddd19a3ad462000054
+```javascript
+function stringy(size) {
+  let str = '';
+  for(let i = 0; i < size; i++){
+    if (i % 2 === 0) {
+      str = str + '1';
+    } else {
+      str = str + '0';
+    }
+  }
+  return str;
+}
+```
+
+81) https://www.codewars.com/kata/574b1916a3ebd6e4fa0012e7
+```javascript
+function isOpposite(s1,s2){
+console.log(s1 + " " + s2)
+ if(s1.length === 0 && s2.length === 0) return false;
+ if(s1.length !== s2.length) return false;
+ for(let i = 0; i < s1.length; i++){
+   if (!(s1[i] !== s2[i] && s1[i].toLowerCase() === s2[i].toLowerCase())) return false;
+   }
+ return true;
+
+}
+```
+
+82) https://www.codewars.com/kata/5875b200d520904a04000003
+```javascript
+function enough(cap, on, wait) {
+  if((cap - on) >= wait) return 0;
+  else return wait - (cap - on);
+}
+```
+
+83) https://www.codewars.com/kata/586c1cf4b98de0399300001d
+```javascript
+function combat(health, damage) {
+if(health <= damage) return 0;
+  return health - damage;
+}
+```
+
+84) https://www.codewars.com/kata/5865918c6b569962950002a1
+```javascript
+function strCount(str, letter){
+  let cnt = 0;
+  for(let i = 0; i < str.length; i++){
+  if(str[i] === letter) cnt++;
+  }
+  return cnt;
+}
+```
+
+85) https://www.codewars.com/kata/5c8bfa44b9d1192e1ebd3d15
+```javascript
+function warnTheSheep(queue) {
+ for(let i = 0 ; i < queue.length; i++){
+  if(queue[i] === "wolf") {
+    if(queue.length - 1 === i) return "Pls go away and stop eating my sheep";
+   else return "Oi! Sheep number " + (queue.length - i - 1) + "! You are about to be eaten by a wolf!";
+   }
+ }
+}
+```
+
+86) https://www.codewars.com/kata/565f5825379664a26b00007c
+```javascript
+function getSize(w, h, d){
+ let volume = w * h * d;
+ let area = 2 * (h * d) + 2 * (h * w) + 2 *(d * w);
+ return [area, volume];
+}
+```
+
+87) https://www.codewars.com/kata/58235a167a8cb37e1a0000db
+```javascript
+function numberOfPairs(gloves){
+let cnt = {};
+let number = 0;
+console.log(gloves);
+ gloves.forEach(function (el) { cnt[el] = (cnt [el] || 0) + 1;});
+ let arr = Object.values(cnt);
+ for (let i = 0; i < arr.length; i++) {
+   if (arr[i] >= 2) {
+     number = number + Math.floor(arr[i]/2);
+   }
+ }
+ return number;
+}
+```
+
+88) https://www.codewars.com/kata/57356c55867b9b7a60000bd7
+```java
+public class BasicOperations
+{
+  public static Integer basicMath(String op, int v1, int v2)
+  {
+  if(op.equals("+")) return v1 + v2;
+  if(op.equals("-")) return v1 - v2;
+  if(op.equals("*")) return v1 * v2;
+  return v1 / v2;
+
+  }
+}
+```
 
 
 
