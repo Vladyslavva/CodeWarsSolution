@@ -1150,6 +1150,28 @@ public class BasicOperations
 }
 ```
 
+89) https://www.codewars.com/kata/5a2fd38b55519ed98f0000ce
+```javascript
+function multiTable(number) {
+let res = '';
+  for (let i = 1; i <= 10; i++){
+  res = res + (i + " * " + number + " = " + (number * i) + "\n");
+    }
+    return res.slice(0, res.length - 1);
+}
+```
+
+90) https://www.codewars.com/kata/53af2b8861023f1d88000832
+```java
+public class Banjo {
+  public static String areYouPlayingBanjo(String name) {
+    if (name.charAt(0) == 'R' || name.charAt(0) == 'r') return name + " plays banjo";
+   else return name + " does not play banjo";
+   }
+}
+
+
+
 
 
 
