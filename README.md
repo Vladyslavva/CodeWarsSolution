@@ -1169,6 +1169,35 @@ public class Banjo {
    else return name + " does not play banjo";
    }
 }
+```
+
+91) https://www.codewars.com/kata/557cd6882bfa3c8a9f0000c1
+```javascript
+function getAge(inputString){
+for(let i = 0; i <= 9; i ++){
+return +inputString[i];
+  }
+}
+```
+
+92) https://www.codewars.com/kata/5769b3802ae6f8e4890009d2
+```javascript
+function removeEveryOther(arr){
+ let resArr = [];
+  for(let i = 0; i < arr.length; i = i + 2){
+    resArr.push(arr[i]);
+  }return resArr;
+}
+```
+
+93) https://www.codewars.com/kata/58dbdccee5ee8fa2f9000058
+```javascript
+function spEng(s){
+return s.toLowerCase().includes("english");
+}
+```
+
+
 
 
 
