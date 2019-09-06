@@ -1197,6 +1197,30 @@ return s.toLowerCase().includes("english");
 }
 ```
 
+94) https://www.codewars.com/kata/59dd3ccdded72fc78b000b25
+```javascript
+function whatday(num) {
+let week = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
+return (num > 0 && num < 8) ? week[num - 1] : "Wrong, please enter a number between 1 and 7";
+}
+```
+
+95) https://www.codewars.com/kata/5772da22b89313a4d50012f7
+```javascript
+function greet (name, owner) {
+  return (name === owner) ? 'Hello boss' : 'Hello guest';
+}
+```
+
+96) https://www.codewars.com/kata/58d248c7012397a81800005c
+```javascript
+var cubeChecker = function(volume, side){
+if(side <= 0 || volume <= 0) return false;
+console.log(volume ** (1/3));
+ return Math.cbrt(volume) === side;
+}
+```
+
 
 
 
