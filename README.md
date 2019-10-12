@@ -1221,6 +1221,42 @@ console.log(volume ** (1/3));
 }
 ```
 
+97) https://www.codewars.com/kata/5a8fbe73373c2e904700008c
+```javascript
+function solve(st){
+ for(let i = 0; i < st.length; i++){
+   if(st === st.split('').reverse().join('')) return true;
+   else st = st[st.length - 1] + st.substring(0, st.length - 1);
+   console.log(st);
+ } return false;
+}
+```
+
+98) https://www.codewars.com/kata/5b73fe9fb3d9776fbf00009e
+```javascript
+function sumOfDifferences(arr) {
+ if (arr.length === 0 || arr.length === 1) return 0;
+ arr.sort((a,b) => b - a);
+ let sum = 0;
+ for (let i = 1; i < arr.length; i++) {
+   sum = sum + (arr[i - 1] - arr[i]);
+ }
+ return sum;
+}
+```
+
+99) https://www.codewars.com/kata/570f6436b29c708a32000826
+```javascript
+function firstNonRepeated(s) {
+  s.split('');
+  console.log(s);
+  for(let i = 0; i < s.length; i++){
+    if(s.indexOf(s[i]) === s.lastIndexOf(s[i])) return s[i];
+  }
+  return null;
+}
+```
+
 
 
 
