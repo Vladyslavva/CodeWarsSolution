@@ -1257,6 +1257,63 @@ function firstNonRepeated(s) {
 }
 ```
 
+100) https://www.codewars.com/kata/59811fd8a070625d4c000013
+```javascript
+function integrate(coefficient, exponent) {
+  return `${coefficient/(exponent + 1)}x^${exponent + 1}`;
+}
+```
+
+101) https://www.codewars.com/kata/560dab9f8b50f89fd6000070
+```javascript
+let money = 10;
+let candy = 1.42;
+let chips = 2.40;
+let soda = 1.00;
+let change = money - candy - chips - soda;
+```
+
+102) https://www.codewars.com/kata/56f699cd9400f5b7d8000b55
+```javascript
+function fixTheMeerkat(arr) {
+ return arr.reverse();
+}
+```
+
+103) https://www.codewars.com/kata/58f8a3a27a5c28d92e000144
+```javascript
+function firstNonConsecutive (arr) {
+ for(let i = 0; i < arr.length -1; i++){
+  if(arr[i] != arr[i+1] - 1) return arr[i+1];
+ }
+ return null;
+}
+```
+
+104) https://www.codewars.com/kata/55a5bfaa756cfede78000026
+```javascript
+function problem(x){
+  if (typeof x === "string") return "Error";
+  else return (x * 50) + 6;
+}
+```
+
+105) https://www.codewars.com/kata/56f3f6a82010832b02000f38
+```javascript
+function describeAge(a){s="You're a(n)";return a<13?s+" kid" : (a>12 && a<18)?s+" teenager" : (a>17 && a<65)?s+" adult" : s+" elderly";}
+```
+
+106) https://www.codewars.com/kata/56f6919a6b88de18ff000b36
+```javascript
+function howManyDalmatians(number) {
+
+  var dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIANS!!!"];
+
+  var respond = number <= 10 ? dogs[0] : (number <= 50 ? dogs[1] : (number === 101 ? dogs[3] : dogs[2]));
+
+return respond;
+}
+```
 
 
 
