@@ -1315,6 +1315,51 @@ return respond;
 }
 ```
 
+107) https://www.codewars.com/kata/56efc695740d30f963000557
+```javascript
+String.prototype.toAlternatingCase = function () {
+  let newString = "";
+  for(let i = 0; i < this.length; i++){
+    if (this[i].toLowerCase() === this[i]) newString += this[i].toUpperCase();
+    else newString += this[i].toLowerCase();
+  } return newString;
+}
+```
+
+108) https://www.codewars.com/kata/568d0dd208ee69389d000016
+```javascript
+function rentalCarCost(d) {
+  if(d < 3) return d * 40;
+  else if(d >= 3 && d < 7) return d * 40 - 20;
+  else return (d * 40) - 50;
+}
+```
+
+109) https://www.codewars.com/kata/54edbc7200b811e956000556
+```javascript
+function countSheeps(arrayOfSheep) {
+let count = 0;
+  for(let i = 0; i < arrayOfSheep.length; i++){
+    if(arrayOfSheep[i] === true)
+      count ++
+    } return count;
+  }
+  ```
+
+  110) https://www.codewars.com/kata/58e0f0bf92d04ccf0a000010
+  ```javascript
+function lostSheep(friday,saturday,total){
+  let arr1 = friday.concat(saturday);
+  return total - arr1.reduce((accum, current) => accum + current, 0);
+
+  }
+  ```
+
+  ```
+
+
+
+
 
 
 

@@ -25,8 +25,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1042">
-              <caret line="1305" column="59" selection-start-line="1305" selection-start-column="59" selection-end-line="1305" selection-end-column="59" />
+            <state relative-caret-position="1037">
+              <caret line="1317" column="5" lean-forward="true" selection-start-line="1317" selection-start-column="5" selection-end-line="1317" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -52,6 +52,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -74,8 +76,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -167,7 +167,7 @@
     <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07625099" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.07664813" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -208,8 +208,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1042">
-          <caret line="1305" column="59" selection-start-line="1305" selection-start-column="59" selection-end-line="1305" selection-end-column="59" />
+        <state relative-caret-position="1037">
+          <caret line="1317" column="5" lean-forward="true" selection-start-line="1317" selection-start-column="5" selection-end-line="1317" selection-end-column="5" />
         </state>
       </provider>
     </entry>
