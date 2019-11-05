@@ -1355,6 +1355,65 @@ function lostSheep(friday,saturday,total){
   }
   ```
 
+  111) https://www.codewars.com/kata/5a9e86705ee396d6be000091
+  ```javascript
+  function checkThreeAndTwo(array) {
+    let a = 0;
+    let b = 0;
+    let c = 0;
+    for(let i = 0; i < array.length; i++){
+      if (array[i] === 'a') a = a + 1;
+      if (array[i] === 'b') b = b + 1;
+      if (array[i] === 'c') c = c + 1;
+
+    }
+    return (a + b === 5 || a + c === 5 || b + c === 5) &&  (a <= 3 && b <= 3 && c <= 3);
+  }
+
+  ```
+
+  112) https://www.codewars.com/kata/59c8b38423dacc7d95000008
+  ```javascript
+function isValid(formula){
+  if (formula.includes(1) && formula.includes(2)) return false;
+  if (formula.includes(3) && formula.includes(4)) return false;
+  if (formula.includes(5) || formula.includes(6)) {if (!(formula.includes(5) && formula.includes(6))) return false;}
+  if (!(formula.includes(7) || formula.includes(8))) return false;
+  return true;
+}
+  ```
+
+  113) https://www.codewars.com/kata/555615a77ebc7c2c8a0000b8
+  ```javascript
+  function tickets(peopleInLine){
+    let bank  = {
+      25 : 0,
+      50: 0,
+      100: 0
+    };
+    if(peopleInLine[0] !== 25) return 'NO';
+    bank['25'] += 1;
+    for(let i = 1; i < peopleInLine.length; i++){
+      if(peopleInLine[i] === 25){
+        bank['25']+= 1;
+      } else if (peopleInLine[i] === 50){
+        if(bank['25'] > 0){
+          bank['25'] -=1;
+          bank['50'] +=1;
+        } else return 'NO';
+      } else {
+        if(bank['25'] > 0 && bank['50'] > 0){
+          bank['100'] +=1;
+          bank['50'] -=1;
+          bank['25'] -=1;
+        } else if (bank['25'] > 2){
+          bank['100'] +=1;
+          bank['25'] -=3;
+        } else return 'NO';
+
+      }
+    } return 'YES';
+  }
   ```
 
 
