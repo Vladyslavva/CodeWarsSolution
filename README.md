@@ -1459,6 +1459,38 @@ function move (position, roll) {
  }
   ```
 
+  119) https://www.codewars.com/kata/5a34b80155519e1a00000009
+  ```javascript
+  function multipleOfIndex(array) {
+    const arr = [];
+    for(let i = 0; i < array.length; i++){
+      if(array[i] % i === 0) arr.push(array[i]);
+    }return arr;
+  }
+  ```
+
+  120) https://www.codewars.com/kata/55d1d6d5955ec6365400006d
+  ```javascript
+function roundToNext5(n){
+  while(true){
+   if(n % 5 === 0) return n;
+   n++;
+  }
+}
+  ```
+
+  121) https://www.codewars.com/kata/55eca815d0d20962e1000106
+  ```javascript
+  function generateRange(min, max, step){
+    const arr = [];
+    for( let i = min; i <= max; i = i + step){
+      arr.push(i);
+    }
+    return arr;
+    }
+
+  ```
+
 
 
 
