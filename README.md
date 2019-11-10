@@ -1491,6 +1491,62 @@ function roundToNext5(n){
 
   ```
 
+  122) https://www.codewars.com/kata/59ca8246d751df55cc00014c
+  ```javascript
+  function hero(bullets, dragons){
+   return bullets/dragons >= 2;
+  }
+  ```
+
+  123) https://www.codewars.com/kata/57a429e253ba3381850000fb
+  ```javascript
+function bmi(weight, height) {
+  let bmi =  weight / (height ** 2);
+  return bmi <= 18.5 ? "Underweight" : bmi <= 25.0 ? "Normal" : bmi <= 30.0 ?  "Overweight" : "Obese";
+}
+  ```
+
+  124) https://www.codewars.com/kata/57e3f79c9cb119374600046b
+  ``javascript
+function hello(name) {
+  if(name === undefined || name === '')return "Hello, World!";
+  name = name.toLowerCase();
+  name = name[0].toUpperCase() + name.slice(1, name.length);
+  return `Hello, ${name}!`;
+}
+  ```
+
+  125) https://www.codewars.com/kata/523b623152af8a30c6000027
+  ```javascript
+  function square(arg){
+    return arg * arg;
+  }
+  ```
+
+
+  126) https://www.codewars.com/kata/5b853229cfde412a470000d0
+  ```javascript
+  function twiceAsOld(dadYearsOld, sonYearsOld) {
+    const age =  + (dadYearsOld - sonYearsOld * 2);
+    return Math.abs(age);
+  }
+  ```
+
+  127) https://www.codewars.com/kata/545991b4cbae2a5fda000158
+  ```javascript
+function include(arr, item){
+  if(arr.includes(item)) return true;
+  return false
+}
+  ```
+
+  128) https://www.codewars.com/kata/58630e2ae88af44d2b0000ea
+  ```javascript
+  function isDivisible(wallLength, pixelSize){
+    return wallLength % pixelSize == 0 ? true : false;
+  }
+  ```
+
 
 
 
