@@ -1547,6 +1547,35 @@ function include(arr, item){
   }
   ```
 
+  129) https://www.codewars.com/kata/554b4ac871d6813a03000035
+  ```javascript
+function highAndLow(s){
+  let max, min, n, b = '';
+
+  for(let i = 0; i < s.length; i++){
+    if(s[i] !== ' '){
+     b+=s[i];
+    }
+   if(s[i]=== ' ' || i === s.length - 1){
+     n=+b;
+     b = '';
+     if(n > max || max === undefined) max = n;
+     if(n < min || min === undefined) min = n;
+   }
+
+  }
+  return max + ' ' + min;
+}
+  ```
+
+  130) https://www.codewars.com/kata/5bb0c58f484fcd170700063d
+  ```javascript
+function pillars(num_pill, dist, width) {
+  return num_pill > 1 ? dist * 100 * (num_pill - 1) + width * (num_pill - 2) : 0;
+}
+  ```
+
+
 
 
 
