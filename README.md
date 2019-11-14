@@ -1582,6 +1582,21 @@ function pillars(num_pill, dist, width) {
   }
   ```
 
+  132) https://www.codewars.com/kata/57e92e91b63b6cbac20001e5
+  ```javascript
+  function dutyFree(normPrice, discount, hol){
+  return Math.floor(hol/((normPrice/100) * discount));
+  }
+  ```
+
+  133) https://www.codewars.com/kata/582dafb611d576b745000b74
+  ```javascript
+var quote = function(fighter) {
+  return fighter.toLowerCase() === 'george saint pierre' ? "I am not impressed by your performance." : "I'd like to take this chance to apologize.. To absolutely NOBODY!"
+};
+```
+
+
 
 
 
