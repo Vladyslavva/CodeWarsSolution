@@ -1629,6 +1629,26 @@ var humanYearsCatYearsDogYears = function(humanYears) {
     return [humanYears, catYears, dogYears];
 }
 ```
+136) https://www.codewars.com/kata/57fb09ef2b5314a8a90001ed
+```javscript
+function replace(s){
+  const arrVowels = ['a', 'o', 'u', 'e', 'i'];
+  let newS = '';
+for(let i = 0; i < s.length; i++){
+  if (arrVowels.includes(s[i].toLowerCase())) newS = newS + '!';
+    else newS = newS + s[i];
+}
+  return newS;
+
+}
+```
+
+137) https://www.codewars.com/kata/55fab1ffda3e2e44f00000c6
+```javascript
+function cockroachSpeed(s) {
+  return Math.floor(s/0.036);
+}
+```
 
 
 
