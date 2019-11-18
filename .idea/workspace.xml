@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d8e2ec5b-ffcd-4c77-a973-1f51728ad668" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-    </list>
+    <list default="true" id="d8e2ec5b-ffcd-4c77-a973-1f51728ad668" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +23,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="743">
-              <caret line="1633" lean-forward="true" selection-start-line="1633" selection-end-line="1633" />
+            <state relative-caret-position="-4321">
+              <caret line="940" column="3" lean-forward="true" selection-start-line="940" selection-start-column="3" selection-end-line="940" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -208,8 +206,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="743">
-          <caret line="1633" lean-forward="true" selection-start-line="1633" selection-end-line="1633" />
+        <state relative-caret-position="-4321">
+          <caret line="940" column="3" lean-forward="true" selection-start-line="940" selection-start-column="3" selection-end-line="940" selection-end-column="3" />
         </state>
       </provider>
     </entry>
