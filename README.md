@@ -1664,6 +1664,43 @@ public class Greeter {
 }
 ```
 
+139) https://www.codewars.com/kata/55acfc59c3c23d230f00006d
+```javascript
+function getASCII(c){
+ const charCode = c.charCodeAt(0);
+ return charCode;
+}
+```
+
+140) https://www.codewars.com/kata/563c13853b07a8f17c000022
+```javascript
+function isToday(date) {
+  const now = new Date();
+  return now.getDate() === date.getDate() && now.getFullYear() === date.getFullYear() && now.getMonth() === date.getMonth();
+}
+```
+
+141) https://www.codewars.com/kata/597c684822bc9388f600010f
+```java
+public class Dinglemouse {
+
+  private String firstName;
+  private String lastName;
+
+  public Dinglemouse(String firstName, String lastName) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  public String getFullName() {
+    if((this.firstName.equals("")) && (this.lastName.equals(""))) return "";
+    if(this.firstName.equals("")) return this.lastName;
+    if(this.lastName.equals("")) return this.firstName;
+    return this.firstName + " " + this.lastName;
+  }
+}
+```
+
 
 
 
