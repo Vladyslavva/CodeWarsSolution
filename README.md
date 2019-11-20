@@ -1701,6 +1701,48 @@ public class Dinglemouse {
 }
 ```
 
+142) https://www.codewars.com/kata/50654ddff44f800200000004
+```java
+public class Multiply {
+    public static Double multiply(Double a, Double b) {
+        return a * b;
+    }
+}
+```
+
+143) https://www.codewars.com/kata/582cb0224e56e068d800003c
+```java
+public class KeepHydrated  {
+
+  public int Liters(double time)  {
+
+    return (int)(time * 0.5);
+
+  }
+
+}
+```
+
+144) https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a
+```java
+public class Clock
+{
+  public static int Past(int h, int m, int s)
+  {
+    return h * 3600000 + m * 60000 + s * 1000;
+  }
+}
+```
+
+145) https://www.codewars.com/kata/57202aefe8d6c514300001fd
+```java
+public class SaleHotdogs{
+  public static int saleHotdogs(final int n){
+    return n < 5 ? n*100 : n >= 5 && n < 10 ? n*95 : n*90;
+  }
+}
+```
+
 
 
 
