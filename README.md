@@ -1743,6 +1743,13 @@ public class SaleHotdogs{
 }
 ```
 
+146) https://www.codewars.com/kata/59441520102eaa25260000bf
+```javascript
+function unusualFive() {
+  return 'H'.charCodeAt() % 'C'.charCodeAt();
+}
+```
+
 
 
 
