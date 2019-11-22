@@ -1750,6 +1750,31 @@ function unusualFive() {
 }
 ```
 
+147) https://www.codewars.com/kata/555a67db74814aa4ee0001b5
+``java
+public class Number {
+
+  public boolean isEven(double n) {
+     if(n % 2 == 0) return true;
+     else return false;
+  }
+}
+```
+
+148) https://www.codewars.com/kata/5302d846be2a9189af0001e4
+```java
+public class Hello{
+  public String sayHello(String [] name, String city, String state){
+   String str = "Hello, ";
+    for( int i = 0; i < name.length; i++){
+       if(i != name.length - 1) str = str + name[i] + " ";
+       else str = str + name[i] + "!";
+    }
+    return str + " Welcome to " + city + ", " + state + "!";
+  }
+}
+```
+
 
 
 
