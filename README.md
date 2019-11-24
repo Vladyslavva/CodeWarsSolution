@@ -1775,6 +1775,21 @@ public class Hello{
 }
 ```
 
+149) https://www.codewars.com/kata/55c7f90ac8025ebee1000062
+```javascript
+var sortArray = function(value) {
+  return value.split('').sort((c, p) => (c - p)).join('');
+}
+```
+
+150) https://www.codewars.com/kata/514a677421607afc99000002
+```javascript
+function getNames(data){
+ return data.map(item => item.name);
+
+}
+```
+
 
 
 
