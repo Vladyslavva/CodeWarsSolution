@@ -1790,6 +1790,27 @@ function getNames(data){
 }
 ```
 
+151) https://www.codewars.com/kata/52e9aa89b5acdd26d3000127
+```javascript
+function hoopCount (n) {
+  return ( n >= 10) ? "Great, now move on to tricks":  "Keep at it until you get it";
+}
+```
+
+152) https://www.codewars.com/kata/52e9aa89b5acdd26d3000127
+```javascript
+function spam(number){
+  return "hue".repeat(number);
+}
+```
+
+153) https://www.codewars.com/kata/5708f682c69b48047b000e07
+```javascript
+function multiply(number){
+  return number > 0 ? 5 ** number.toString().length * number: 5 ** (number.toString().length - 1) * number;
+}
+```
+
 
 
 
