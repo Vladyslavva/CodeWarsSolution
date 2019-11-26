@@ -1811,6 +1811,16 @@ function multiply(number){
 }
 ```
 
+154) https://www.codewars.com/kata/5b4e779c578c6a898e0005c5
+```javascript
+function drawStairs(n) {
+ let step = "I";
+ for(let i= 1; i < n; i++){
+   step = step +"\n" + " ".repeat(i) + "I";
+ } return step;
+}
+```
+
 
 
 
