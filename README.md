@@ -1821,6 +1821,42 @@ function drawStairs(n) {
 }
 ```
 
+155) https://www.codewars.com/kata/56598d8076ee7a0759000087
+```java
+public class TipCalculator {
+
+  public static Integer calculateTip(double amount, String rating) {
+  rating = rating.toLowerCase();
+    switch (rating) {
+      case "terrible": return 0;
+      case "poor": return (int) Math.ceil(amount * 0.05);
+      case "good": return (int) Math.ceil(amount * 0.1);
+      case "great": return (int) Math.ceil(amount * 0.15);
+      case "excellent": return (int) Math.ceil(amount * 0.2);
+
+    }
+    return null;
+  }
+}
+```
+
+156) https://www.codewars.com/kata/557af9418895e44de7000053
+```java
+public class RepeatIt {
+
+  public static String repeatString(final Object toRepeat, final int n) {
+   if (!(toRepeat instanceof String)) return "Not a string";
+   String rez = "";
+   for (int i = 0; i < n; i++) {
+     rez = rez + toRepeat;
+   }
+
+   return rez;
+  }
+
+}
+```
+
 
 
 
