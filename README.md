@@ -1857,6 +1857,19 @@ public class RepeatIt {
 }
 ```
 
+157) https://www.codewars.com/kata/5704aea738428f4d30000914
+```java
+public class Kata {
+    public static String tripleTrouble(String one, String two, String three) {
+        String res = "";
+        for(int i = 0; i < one.length(); i++){
+            String s = one.substring(i, i + 1) + two.substring(i, i + 1) + three.substring(i, i + 1);
+            res+=s;
+        }return res;
+    }
+}
+```
+
 
 
 
