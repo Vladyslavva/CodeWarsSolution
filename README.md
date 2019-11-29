@@ -1870,6 +1870,28 @@ public class Kata {
 }
 ```
 
+157) https://www.codewars.com/kata/57f24e6a18e9fad8eb000296
+```javascript
+function howMuchILoveYou(n) {
+  const flower = ['I love you', 'a little', 'a lot', 'passionately', 'madly', 'not at all'];
+    return flower[(n - 1) % 6];
+}
+```
+
+158) https://www.codewars.com/kata/554e4a2f232cdd87d9000038
+```javascript
+function DNAStrand(dna){
+ let res = '';
+ for(let i = 0; i < dna.length; i++){
+   if(dna[i] === 'A') res += 'T';
+   if(dna[i] === 'T') res += 'A';
+   if(dna[i] === 'G') res += 'C';
+   if(dna[i] === 'C') res += 'G';
+ }
+ return res;
+}
+```
+
 
 
 
