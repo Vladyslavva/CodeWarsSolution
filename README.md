@@ -1892,6 +1892,15 @@ function DNAStrand(dna){
 }
 ```
 
+159) https://www.codewars.com/kata/5890d8bc9f0f422cf200006b
+```javascript
+//return price without vat
+function excludingVatPrice(price){
+  if(price === null) return -1;
+  return Math.round((price / 115)*10000)/100;
+}
+```
+
 
 
 
