@@ -1901,6 +1901,17 @@ function excludingVatPrice(price){
 }
 ```
 
+160) https://www.codewars.com/kata/51f41fe7e8f176e70d0002b9
+```javascript
+// input: names - unsorted strings
+// output: case-agnostic sort
+sortme = function( names ){
+return names.sort(function (a, b) {
+    return a.toLowerCase().localeCompare(b.toLowerCase());
+});
+}
+```
+
 
 
 
