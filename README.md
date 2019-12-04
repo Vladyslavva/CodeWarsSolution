@@ -1912,6 +1912,16 @@ return names.sort(function (a, b) {
 }
 ```
 
+161) https://www.codewars.com/kata/582e0e592029ea10530009ce
+```java
+public class Kata {
+  public static String duckDuckGoose(Player[] players, int goose) {
+    // Note: Player objects have a String field called 'name'.
+    return players[(goose - 1) % players.length].name;
+  }
+}
+```
+
 
 
 
