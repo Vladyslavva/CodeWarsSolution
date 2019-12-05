@@ -1922,6 +1922,25 @@ public class Kata {
 }
 ```
 
+162) https://www.codewars.com/users/Vladyslavva/completed_solutions
+```java
+public class SortAndStar {
+
+  public static String twoSort(String[] s) {
+  String max = s[0];
+  String res = "";
+  for(int i = 1; i < s.length; i++){
+     if(s[i].compareTo(max) < 0) max = s[i];
+   }
+  for(int i = 0; i < max.length(); i++){
+     res = res + max.charAt(i) + "***";
+   }
+   return res.substring(0, res.length() - 3);
+  }
+
+}
+```
+
 
 
 
