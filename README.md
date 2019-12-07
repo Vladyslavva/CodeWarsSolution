@@ -1941,6 +1941,41 @@ public class SortAndStar {
 }
 ```
 
+163) https://www.codewars.com/kata/5966e33c4e686b508700002d
+```javascript
+function sumStr(a,b) {
+if(a==="" ) a = 0;
+if(b==="" ) b = 0;
+return (+a + +b) + "";
+}
+```
+
+164) https://www.codewars.com/kata/563d59dd8e47a5ed220000ba
+```javascript
+function getSumOfDigits(integer) {
+  let sum = null;
+  let digits = integer.toString();
+  for(let i = 0; i < digits.length; i++) {
+    sum += +digits[i];
+  }
+  return sum;
+}
+```
+
+165) https://www.codewars.com/kata/56f69d9f9400f508fb000ba7
+```java
+public class MonkeyCounter
+{
+  public static int[] monkeyCount(final int n){
+  int[] monkeys = new int[n];
+  for(int i = 0; i < n; i++){
+     monkeys[i] = i + 1;
+   }
+   return monkeys;
+  }
+}
+```
+
 
 
 
