@@ -1976,6 +1976,49 @@ public class MonkeyCounter
 }
 ```
 
+166) https://www.codewars.com/kata/5512a0b0509063e57d0003f5
+```java
+public class FirstClass {
+    public static byte sum (byte a, byte b) {
+        byte c = (byte)(a + b);
+        return c;
+    }
+}
+```
+
+167) import java.util.*;
+
+     class Kata {
+       public static List CreateList(int number)
+       {
+         List list = new ArrayList();
+
+         for(int count = 1; count <= number; count++)
+         {
+           list.add(count);
+         }
+
+         return list;
+       }
+     }
+```java
+import java.util.*;
+
+class Kata {
+  public static List CreateList(int number)
+  {
+    List list = new ArrayList();
+
+    for(int count = 1; count <= number; count++)
+    {
+      list.add(count);
+    }
+
+    return list;
+  }
+}
+```
+
 
 
 
