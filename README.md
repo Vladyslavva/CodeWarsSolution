@@ -1986,7 +1986,9 @@ public class FirstClass {
 }
 ```
 
-167) import java.util.*;
+167) https://www.codewars.com/kata/55c28f7304e3eaebef0000da
+```java
+import java.util.*;
 
      class Kata {
        public static List CreateList(int number)
@@ -2001,23 +2003,30 @@ public class FirstClass {
          return list;
        }
      }
-```java
-import java.util.*;
+```
 
-class Kata {
-  public static List CreateList(int number)
-  {
-    List list = new ArrayList();
-
-    for(int count = 1; count <= number; count++)
-    {
-      list.add(count);
-    }
-
-    return list;
-  }
+168) https://www.codewars.com/kata/571ec274b1c8d4a61c0000c8
+```javascript
+function helloWorld (str){
+var str = "Hello World!";
+console.log(str);
 }
 ```
+
+169) https://www.codewars.com/kata/534ea96ebb17181947000ada
+```javascript
+function breakChocolate(n,m) {
+  if((n === 0 || m === 0) || (n === 1 && m === 1)){
+  return 0;
+  } else {
+   return (n * m) - 1;
+   }
+}
+```
+
+
+
+
 
 
 
