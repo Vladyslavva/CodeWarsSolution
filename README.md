@@ -2039,6 +2039,12 @@ function iceBrickVolume(radius, bottleLength, rimLength) {
 }
 ```
 
+172) https://www.codewars.com/kata/53934feec44762736c00044b
+```javascript
+var c = 123;
+var a = c.toString();
+```
+
 
 
 
