@@ -2024,6 +2024,22 @@ function breakChocolate(n,m) {
 }
 ```
 
+170) https://www.codewars.com/kata/5a03b3f6a1c9040084001765
+```javascript
+function angle(n) {
+  return 180*(n-2);
+
+}
+```
+
+171) https://www.codewars.com/kata/59c287b16bddd291c700009a
+```javascript
+function iceBrickVolume(radius, bottleLength, rimLength) {
+  return (Math.pow((2 * radius), 2)/2) * (bottleLength - rimLength);
+}
+```
+
+
 
 
 
