@@ -2045,6 +2045,13 @@ var c = 123;
 var a = c.toString();
 ```
 
+173) https://www.codewars.com/kata/552564a82142d701f5001228
+```javascript
+function discoverOriginalPrice(discountedPrice, salePercentage){
+return (Math.round((discountedPrice / (100 - salePercentage) * 10000)))/100;
+}
+```
+
 
 
 
