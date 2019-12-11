@@ -2059,6 +2059,12 @@ return  +n.toFixed(2);
 }
 ```
 
+175) https://www.codewars.com/kata/5748838ce2fab90b86001b1a
+```function squareArea(A){
+  return Math.round(Math.pow(A, 2) * 400 / Math.pow(Math.PI, 2)) / 100;
+}
+```
+
 
 
 
