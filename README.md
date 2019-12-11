@@ -2052,6 +2052,12 @@ return (Math.round((discountedPrice / (100 - salePercentage) * 10000)))/100;
 }
 ```
 
+174) https://www.codewars.com/users/Vladyslavva/completed_solutions
+```javascript
+function twoDecimalPlaces(n) {
+return  +n.toFixed(2);
+}
+```
 
 
 
