@@ -2072,6 +2072,46 @@ const closestMultiple10 = num => {
 }
 ```
 
+177) https://www.codewars.com/kata/570669d8cb7293a2d1001473
+```javascript
+function ifChuckSaysSo(){
+return 6 < 5;
+}
+```
+
+178) https://www.codewars.com/kata/57f6ecdfcca6e045d2001207
+```javascript
+function add(a, b){
+	if(a == b) return true;
+
+else return false;
+}
+```
+
+179) https://www.codewars.com/kata/574b3b1599d8f897470018f6
+```javascript
+function getRealFloor(n) {
+if(n ===0 || n === 1) return 0;
+  else if( n < 0) return n;
+  else if (n >= 13) return n - 2;
+    else return n - 1;
+}
+```
+
+180) https://www.codewars.com/kata/58e0bd6a79716b7fcf0013b1
+```javascript
+function getAges(sum,difference){
+ let arrAge = [];
+  let age1 = (sum + difference) / 2;
+  let age2 = age1 - difference;
+  if( sum < 0 || difference < 0 || age1 < 0 || age2 < 0) return null;
+  arrAge.push(age1);
+  arrAge.push(age2);
+  return arrAge;
+}
+```
+
+
 
 
 
