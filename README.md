@@ -2111,6 +2111,58 @@ function getAges(sum,difference){
 }
 ```
 
+181) https://www.codewars.com/kata/558f9f51e85b46e9fa000025
+``` javascript
+function differenceOfSquares(n){
+ let sum = 0;
+ let sumOfSq = 0;
+ let i = 1;
+ while(i <= n){
+   sum = sum + i;
+   sumOfSq = sumOfSq + i * i;
+   i++;
+ }
+ return sum * sum - sumOfSq;
+}
+```
+
+182) https://www.codewars.com/kata/57a049e253ba33ac5e000212
+```javascript
+function factorial(num) {
+  let fact = 1;
+  for ( n = 2; n <= num; n++ ) {
+    fact = fact * n;
+  }
+  return fact;
+}
+```
+
+183) https://www.codewars.com/kata/534d0a229345375d520006a0
+```javascript
+function isPowerOfTwo(n){
+    return (n != 0) && ((n & (n - 1)) == 0);
+}
+```
+
+184) https://www.codewars.com/kata/57be674b93687de78c0001d9
+```javascript
+function largestPower(n){
+if (n === 1) return -1;
+  return n <=3 ? 0 : Math.floor(Math.log(n - 1) / Math.log(3));
+}
+```
+
+185) https://www.codewars.com/kata/555eded1ad94b00403000071
+```javascript
+function SeriesSum(n) {
+  let  sum = 0;
+  for( let i = 0; i < n; i++){
+    sum += (1/(1+(i*3)));
+  }
+  return sum.toFixed(2);
+}
+```
+
 
 
 
