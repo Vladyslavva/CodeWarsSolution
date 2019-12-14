@@ -2163,6 +2163,36 @@ function SeriesSum(n) {
 }
 ```
 
+186) https://www.codewars.com/kata/56c24c58e0c0f741d4001aef
+```javascript
+const isReallyNaN = (val) => {
+  return Number.isNaN(val);
+}
+```
+
+187) https://www.codewars.com/kata/55b051fac50a3292a9000025
+```javascript
+var FilterString = function(value) {
+ let arr = [];
+ for(let i=0; i < value.length; i++){
+   if(!isNaN(+value[i])) {
+     arr.push(value[i]);
+     }
+     console.log(value[i]);
+   }
+  return +arr.join('');
+  console.log(arr);
+}
+```
+
+188) https://www.codewars.com/kata/55a4f9afeffe4231090000d6
+```javascript
+function SafeInteger(n) {
+return Number.isSafeInteger(n);
+}
+```
+
+
 
 
 
