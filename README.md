@@ -2192,6 +2192,49 @@ return Number.isSafeInteger(n);
 }
 ```
 
+189) https://www.codewars.com/kata/57f6ad55cca6e045d2000627
+```javascript
+function squareOrSquareRoot(array) {
+   let arr = [];
+   for(let i = 0; i < array.length; i++){
+     if (Math.round(Math.pow(array[i], 1/2)) === Math.pow(array[i], 1/2)) arr.push(Math.pow(array[i], 1/2));
+     else arr.push(Math.pow(array[i], 2));
+   }
+   return arr;
+}
+```
+
+190) https://www.codewars.com/kata/5546180ca783b6d2d5000062
+```javascript
+function squares(x, n) {
+  if(n <= 0) return [];
+  let arr = [x];
+  for(let i = 1; i < n; i++){
+    arr.push(arr[i - 1] * arr[i -1]);
+  }
+  return arr;
+}
+```
+
+191) https://www.codewars.com/kata/546e2562b03326a88e000020
+```javascript
+function squareDigits(num){
+let x = num.toString();
+  let str = '';
+  for(let i = 0; i < x.length; i++){
+    str += Math.pow(+x[i], 2);
+  }
+  return +str;
+}
+```
+
+192) https://www.codewars.com/kata/580a094553bd9ec5d800007d
+```javascript
+function apple(x){
+ return Math.pow(+x, 2) > 1000 ?  'It\'s hotter than the sun!!' : 'Help yourself to a honeycomb Yorkie for the glovebox.';
+}
+```
+
 
 
 
