@@ -2235,6 +2235,27 @@ function apple(x){
 }
 ```
 
+193) https://www.codewars.com/kata/56269eb78ad2e4ced1000013
+```javascriot
+function findNextSquare(sq) {
+  return Math.sqrt(sq)%1 === 0 ? Math.pow(Math.sqrt(sq)+1,2) : -1;
+}
+```
+
+194) https://www.codewars.com/kata/54c27a33fb7da0db0100040e
+```javascript
+var isSquare = function(n){
+ return Math.sqrt(n) %1 === 0 ? true : false;
+}
+```
+
+195) https://www.codewars.com/kata/57efcb78e77282f4790003d8
+```javascript
+function howManyTimes(annualPrice, individualPrice) {
+  return Math.ceil(annualPrice/individualPrice);
+}
+```
+
 
 
 
