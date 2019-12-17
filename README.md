@@ -2256,6 +2256,28 @@ function howManyTimes(annualPrice, individualPrice) {
 }
 ```
 
+196) https://www.codewars.com/kata/55e2adece53b4cdcb900006c
+```javascript
+function race(v1, v2, g) {
+        if (v1 >= v2) return null;
+        let sec = Math.trunc((g * 3600) / (v2 - v1));
+        let arr =[];
+        let hour = Math.trunc(sec / 3600);
+        let min = Math.trunc((sec % 3600) / 60);
+        sec = Math.trunc(sec % 60);
+        arr.push(hour, min, sec);
+        return arr;
+    }
+```
+
+197) https://www.codewars.com/kata/551f37452ff852b7bd000139
+```javascript
+function addBinary(a,b) {
+  let sum = a + b;
+  return sum.toString(2);
+}
+```
+
 
 
 
